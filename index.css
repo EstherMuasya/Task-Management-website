@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #01a2a8;
+    
+    /* padding: 1rem 2rem; */
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* text-transform: uppercase; */
+  }
+  
+  /* nav styles */
+  
+  .nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+   
+  }
+  
+  .hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+    
+  }
+  
+  .hamburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+  }
+  
+  .nav__link {
+    position: fixed;
+    width: 100%;
+    top: 5.5rem;
+    background-color: #01a2a8;
+  }
+  
+  .nav__link a {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .nav__link a:hover {
+    color: #0c2344;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  
+.sect{
+    margin-top: 8rem;
+    margin-left: 4rem;
+    justify-content: space-between;
+    display: flex;
+    
+    gap: 6rem;
+}
+.prt1{
+    
+    align-items: center;
+    
+    justify-content: space-between;
+    gap: 2rem;
+
+}
+.prt1 >button{
+    background-color: #00ffff;
+    border-radius: 999px;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+
+    
+}
+.prt1 >h2{
+    margin-bottom: 1rem;
+}
+.prt1 >p{
+    margin-bottom: 1rem;
+}
+.prt2 >img{
+    width: 400px;
+    height: 250px;
+    margin-right: 200px;    
+    align-items: center;
+
+}
+.prt11{
+    
+    
+    display: flex;
+    gap: 4rem;
+}
+.prt11 .prt11-1{
+    background-color: #00ffff;
+    border-radius: 999px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+.prt11 .prt11-1:hover{
+    background-color:black;
+    color: white;
+    
+}
+@media screen and (min-width: 600px){
+    .nav__link{
+        display: block;
+        position: static;
+        width: auto;
+        margin-right: 20px;
+        background: none;
+    }
+    .nav__link a{
+        display: inline-block;
+        padding: 15px 20px;
+    }
+    .hamburger{
+        display: none;
+    }
+    
+}
