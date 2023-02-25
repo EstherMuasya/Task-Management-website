@@ -1,0 +1,66 @@
+.footer{
+    background-color: #973416;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    /* gap: 2rem; */
+    /* height: 10vw; */
+    align-content: center;
+    flex-direction: column;
+    top: 100%;
+    padding: 20px;
+}
+.socials {
+    position: relative;
+    align-items: center;
+  
+    align-content: center;
+    display: flex;
+    margin:10px 0;
+  }  
+   .list{
+    list-style: none;
+  } 
+  .icons{
+    font-size: 2em;
+    margin:0 10px;
+    color:#fff;
+    transition:0.5s;
+    display: inline-block;
+  } 
+  .icons:hover{
+    transform: translateY(-10px);
+    
+  }
+  /* sytling menu icons i.e home , about conatct and login */
+  .links{
+    position: relative;
+    align-items: center;
+  
+    align-content: center;
+    display: flex;
+    margin:10px 0;
+
+  } 
+  .tag{
+    font-size: 1em;
+    margin:0 10px;
+    color:#fff;
+    transition:0.5s;
+    text-decoration: none;
+    display: flex;
+    
+  } 
+  .tag:hover{
+    color: #070707;
+  }
+  .menu{
+    list-style: none;
+  }
+  .footer-bottom{
+    text-align: center;
+    padding: 10px 0;
+    width:100vw;
+  } 
