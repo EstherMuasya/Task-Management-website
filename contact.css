@@ -36,6 +36,9 @@ input{
     font-weight: bold;
     font-size: 17px;
 }
+input:hover{
+    background-color: gray;
+}
 textarea{
     width: 100%;
     height: 400vw;
@@ -44,6 +47,9 @@ textarea{
     font-family: 'Times New Roman';
     font-weight: bold;
     background-color:rgba(56, 55, 55, 0.2);
+}
+textarea:hover{
+    background-color: grey;
 }
 button{
     background-color: #973416;

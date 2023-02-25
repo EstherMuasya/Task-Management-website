@@ -70,7 +70,7 @@
   
   
 .sect{
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-left: 4rem;
     justify-content: space-between;
     display: flex;
@@ -90,21 +90,26 @@
     background-color: #01a2a8;
     border-radius: 999px;
     padding: 1rem 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 
     
 }
 .prt1 >h2{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 25px;
 }
 .prt1 >p{
     margin-bottom: 1rem;
+    line-height: 26px;
+    font-size: 15px;
+    /* font-weight: bold; */
 }
 .prt2 >img{
     width: 400px;
-    height: 250px;
+    height: 300px;
     margin-right: 200px;    
     align-items: center;
+    border-radius: 50%;
 
 }
 .prt11{
@@ -118,6 +123,7 @@
     border-radius: 999px;
     padding: 1rem 2rem;
     cursor: pointer;
+    margin-top: 2rem;
 }
 .prt11 .prt11-1:hover{
     background-color:black;
